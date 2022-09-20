@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
                 if (txNombre.getText().toString().trim().isEmpty()) {
                     Toast.makeText(MainActivity.this, "Pon un nombre :(", Toast.LENGTH_SHORT).show();
                 } else {
-                    lbSaludo.setText("Hola, " + txNombre.getText() + ", buenas tardes.");
+                    lbSaludo.setText("Hola, " + txNombre.getText() + ", buenas tardesa.");
                     txNombre.setText("");
                 }
             }
